@@ -1,0 +1,235 @@
+﻿@import url('/css/reboot.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+{
+transition: 0.2s; 
+}
+
+body {
+background-image: url(/img/1.fundojpg);
+font-family: "Arial";
+color: #000000;
+}
+
+a {
+color: blue;
+text-decoration: none;
+}
+a:hover {
+color: red;
+text-decoration: underline;
+}
+
+main, header, nav, content, footer {
+display: block;
+}
+
+
+main {
+background: rgba(255,255,255,0.6);
+margin: auto;
+}
+
+header {
+display: block;
+align-items: center;
+vertical-align: middle;
+background-image:url(/img/2.header.jpg);
+background-repeat: no-repeat;
+background-size:100%;
+font-size: 30px;
+    
+}
+
+header a, header a:link, header a:visited, header a:hover {
+color: #fff;
+text-decoration: none;
+}
+header .headerLogo h1 {
+font-size: 5rem;
+margin: 0 1rem 0 1rem;	
+}
+
+header .headerTitle h1 {
+letter-spacing: 0.35rem;
+font-weight: bold;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+header .headerLogo a {
+color: #FFFFFF;
+display: block;
+text-align: center;
+font-size: 130px;
+text-shadow:brown;
+}
+
+header small {
+display: block;
+font-size: 40px;
+letter-spacing: normal;
+font-weight: normal;
+text-shadow: normal;
+}
+
+header .headerSearch {
+margin-left: auto;
+margin-right: 1rem;
+padding-right: 1rem;
+display: block;
+;
+}
+
+header .headerSearch input, header .headerSearch button{	
+height: 2rem;
+padding: 4px 8px;
+border: 1px solid orange;
+font-family: "Times New Roman", Times, serif;
+font-size: 1rem;
+display: block;   
+}
+header .headerSearch input {
+border-right: 14px;
+width: 14rem; 
+}
+header .headerSearch button {
+padding: 8px 8px;
+}
+header .social {
+text-align: right;
+font-size: 2rem;
+letter-spacing: 0.5rem;
+margin-top: -0.5rem;
+padding-top: 0;
+}
+header .social a:hover {
+color: orange;
+}
+
+nav {
+text-align: center;
+}
+nav a {
+ margin:0 1rem;
+padding: 3px 10px;
+text-decoration:none;
+border-radius: 3px;
+color: rgba(109, 3, 9, 1);
+font-weight: bolder;
+font-size: 1.2rem;
+}
+
+nav a:hover, .navActive {
+background-color: brown;
+color: white;
+text-decoration: none;
+}
+
+content {
+background: rgba(255,255,255,1);
+overflow: auto;
+padding: 1.5rem;
+}
+content h2:first-child {
+margin: 0;
+font-size: 2rem;
+padding: 0 0 3px 16px;
+border-bottom: 2px solid #ddd;
+}
+content small.autor {
+display: block;
+text-align: right;
+margin: 0.5rem 0.5rem 2rem 1rem;
+font-size: 0.8rem;
+}
+
+footer {
+background-image: url(/img/3.footer.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+color: rgb(0,0,0);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+font-size: 100%;
+flex-direction: column;
+}
+footer a {
+color: #FFFFFF;
+text-decoration: none;
+text-align: bottom;
+}
+footer a:hover {
+color:yellow
+text-decoration: underline overline;
+}
+footer .copy {
+color: #000;
+padding: 6px 12px 6px 12px;
+text-align: center;
+font-weight: bolder;
+background: #efefef;
+border-radius: 5px;
+text-align: center;
+}
+footer small {
+display: block;
+letter-spacing: 2px;
+font-weight: normal;
+}
+footer .menu {
+text-align: center;
+}
+
+.footerLogo {text-align: center;
+font-size:30px;
+}
+
+.sTitle {
+background: orange;
+color: white;
+padding: 3px 8px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+border: 1px solid orange;
+}
+.sTitle h3 { margin: 0; }
+.sImage {
+
+}
+.sImage img {
+	width: 100%;
+}
+.sContent {
+	background: #eee;
+	padding: 0.5rem;
+	color: black;
+	border-left: 1px solid orange;
+	border-right: 1px solid orange;
+}
+.sContent p:last-child, .sContent ul:last-child, { margin-bottom: 0; }
+.sFooter {
+	background: #ffe8c6;
+	color: black;
+	padding: 3px;
+	text-align: center;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border: 1px solid orange;
+	margin-bottom: 1rem;
+}
+.sClose {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom: 1px solid orange;
+	margin-bottom: 1rem;
+}
+.sFooter:last-child, .sClose:last-child {
+	margin-bottom: 0;
+}
