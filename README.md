@@ -2,5 +2,5 @@
 Site desenvolvido durante o projeto integrador "Site Dinâmico".
 
 <p align="center">
-<img src="CapturaSite.png">
+<img src="brumadinho.png">
 </p>
