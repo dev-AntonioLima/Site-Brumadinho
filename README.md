@@ -2,5 +2,5 @@
 Site desenvolvido durante o projeto integrador "Site Dinâmico".
 
 <p align="center">
-<img src="captura.png">
+<img src="CapturaSite.png">
 </p>
